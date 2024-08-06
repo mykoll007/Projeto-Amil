@@ -1,183 +1,299 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amil</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-      <img src="/assets/logotipo amil.png" alt="">
-      <nav>
-        <p>Contato</p>
-        <p>Planos</p>
-        <p>Rede Credenciada</p>
-        <p>Portabilidade</p>
-      </nav>
+        <img src="/assets/logotipo amil.png" alt="logotipo amil" id="logo">
+        <nav>
+            <p>Contato</p>
+            <p>Planos</p>
+            <p>Rede Credenciada</p>
+            <p>Portabilidade</p>
+        </nav>
     </header>
-<main>
-    <div id="align-text">
-        <img src="/assets/Imagem-albert.png">
-        <p>Planos de saude completo para você e sua familia </p>
-        <p>Você e sua familia merecem qualidade de vida (:</p>
-    </div>
-    <div id="contacttext">
-        <p>Fale com nossa equipe agora</p>
-        <div id="linha1"></div>
-
-    <div id="align-tel">
-        <div id="contact-whats">
-            <p>(11) 94543-2020</p>
-            <div id="juncao-fale">
-                <p>Fale comigo</p>
-                <img src="/assets/whatsapp.png" alt="icon-whatsapp">
+    <main>
+        <div id="align-text">
+            <img src="/assets/Imagem-albert.png">
+            <div id="align-subti">
+            <p><span>Planos de saude completo para você e sua familia </p></span>
+            <p>Você e sua familia merecem qualidade de vida (:</p>
             </div>
         </div>
-        <p>(11) 3164-0000</p>
-    </div>
-    </div>
+        <div id="contacttext">
+            <p id="fale">Fale com nossa equipe agora</p>
+            <div id="linha1"></div>
+            <div id="cont-tel">
+                <div id="contact-whats">
+                    <p>(11) 94543-2020</p>
+                    <div id="juncao-fale">
+                        <p>Fale comigo</p>
+                        <img src="/assets/mini-whatsapp.png" alt="icon-whatsapp">
+                    </div>
+                </div>
+                <p>(11) 3164-0000</p>
+            </div>
+        </div>
 
-    <section>
-        <img src="/assets/logotipo amil.png" alt="logotipo amil">
-        <p id="planos-h1">Planos de Saúde Amil Empresarial</p>
-        <p>Solicite uma cotação hoje e obtenha os melhores preços garantidos!</p>
+        <section>
+            <img src="/assets/logotipo amil.png" alt="logotipo amil">
+            <p id="planos-h1">Planos de Saúde Amil Empresarial</p>
+            <p>Solicite uma cotação hoje e obtenha os melhores preços garantidos!</p>
 
-        <form action="" method="post" id="form">
-            <label for="name">Nome</label>
-            <input type="text" id="name" name="name" value="" required>
+            <form action="" method="post" id="form">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" value="" required>
 
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" value="" required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" value="" required>
 
-            <label for="email">Telefone / Whatsapp</label>
-            <input type="text" id="telefone" name="telefone" value="" required>
+                <label for="email">Telefone / Whatsapp</label>
+                <input type="text" id="telefone" name="telefone" value="" required>
 
-            <label for="estado">Estado</label>
-            <select required>
-                <option value=""></option>
-                <option value="AM">AM</option>
-                <option value="RR">RR</option>
-                <option value="PA">PA</option>
-                <option value="AP">AP</option>
-                <option value="TO">TO</option>
-                <option value="MA">MA</option>
-                <option value="PI">PI</option>
-                <option value="CE">CE</option>
-                <option value="RN">RN</option>
-                <option value="PB">PB</option>
-                <option value="PE">PE</option>
-                <option value="AL">AL</option>
-                <option value="SE">SE</option>
-                <option value="BA">BA</option>
-                <option value="MG">MG</option>
-                <option value="ES">ES</option>
-                <option value="RJ">RJ</option>
-                <option value="SP">SP</option>
-                <option value="PR">PR</option>
-                <option value="SC">SC</option>
-                <option value="RS">RS</option>
-                <option value="MS">MS</option>
-                <option value="MT">MT</option>
-                <option value="GO">GO</option>
-                <option value="DF">DF</option>
-            </select>
+                <label for="estado">Estado</label>
+                <select required>
+                    <option value=""></option>
+                    <option value="AM">AM</option>
+                    <option value="RR">RR</option>
+                    <option value="PA">PA</option>
+                    <option value="AP">AP</option>
+                    <option value="TO">TO</option>
+                    <option value="MA">MA</option>
+                    <option value="PI">PI</option>
+                    <option value="CE">CE</option>
+                    <option value="RN">RN</option>
+                    <option value="PB">PB</option>
+                    <option value="PE">PE</option>
+                    <option value="AL">AL</option>
+                    <option value="SE">SE</option>
+                    <option value="BA">BA</option>
+                    <option value="MG">MG</option>
+                    <option value="ES">ES</option>
+                    <option value="RJ">RJ</option>
+                    <option value="SP">SP</option>
+                    <option value="PR">PR</option>
+                    <option value="SC">SC</option>
+                    <option value="RS">RS</option>
+                    <option value="MS">MS</option>
+                    <option value="MT">MT</option>
+                    <option value="GO">GO</option>
+                    <option value="DF">DF</option>
+                </select>
 
-            <label for="email">Cidade do CNPJ</label>
-            <input type="text" id="cid_cnpj" name="cid_cnpj" value="" required>
+                <label for="email">Cidade do CNPJ</label>
+                <input type="text" id="cid_cnpj" name="cid_cnpj" value="" required>
 
-            <label for="tipo-plano">Tipo de Plano</label>
-            <select required>
-                <option value=""></option>
-                <option value="individual_familiar">Individual/Familiar</option>
-                <option value="individual_familiar">MEI/PME/Empresarial(descontos até 40%)</option>
-            </select>
+                <label for="tipo-plano">Tipo de Plano</label>
+                <select required>
+                    <option value=""></option>
+                    <option value="individual_familiar">Individual/Familiar</option>
+                    <option value="individual_familiar">MEI/PME/Empresarial(descontos até 40%)</option>
+                </select>
 
-            <label for="idade">Idade das pessoas</label>
-            <input type="text" id="idade" name="idade" value="" required>
+                <label for="idade">Idade das pessoas</label>
+                <input type="text" id="idade" name="idade" value="" required>
 
-            <label for="plano-atual">Plano Atual</label>
-            <input type="text" id="plano-atual" name="plano-atual" value="" required>
+                <label for="plano-atual">Plano Atual</label>
+                <input type="text" id="plano-atual" name="plano-atual" value="" required>
 
-            <label for="plano-valor">Valor do Plano Atual</label>
-            <input type="text" id="plano-valor" name="plano-valor" value="" required>
+                <label for="plano-valor">Valor do Plano Atual</label>
+                <input type="text" id="plano-valor" name="plano-valor" value="" required>
 
-            <label for="comentario">Fale um pouco sobre seu caso</label>
-            <input type="text" id="comentario" name="comentario" value="" required>
+                <label for="comentario">Fale um pouco sobre seu caso</label>
+                <input type="text" id="comentario" name="comentario" value="" required>
 
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
 
-    <p class="titulos">Conheça nossos planos</p>
-    <p class="subtitulos">Veja abaixo as vantagens do plano que mais lhe interessa e nos chame no WhatsApp para fazer a solicitação.</p>
+        <p class="titulos">Conheça nossos planos</p>
+        <p class="subtitulos">Veja abaixo as vantagens do plano que mais lhe interessa e nos chame no WhatsApp para
+            fazer a solicitação.</p>
 
-    <section class="cards">
-        <img src="/assets/icone_familia.png" alt="icone plano individual">
-        <p>Plano Individual / Familiar</p>
-        <p>O Plano Individual / Familiar é uma solução abrangente e flexível desenhada para atender às necessidades específicas de cada pessoa ou de cada núcleo familiar.</p>
-        <button class="buttons-section" id="cotacao-1">Faça sua Cotação</button>
-    </section>
+        <section class="cards">
+            <img src="/assets/icone_familia.png" alt="icone plano individual">
+            <p>Plano Individual / Familiar</p>
+            <p>O Plano Individual / Familiar é uma solução abrangente e flexível desenhada para atender às necessidades
+                específicas de cada pessoa ou de cada núcleo familiar.</p>
+            <button class="buttons-section" id="cotacao-1">Faça sua Cotação</button>
+        </section>
 
-    <section class="cards">
-        <img src="/assets/icone_mei.png" alt="icone plano MEI">
-        <p>Plano MEI</p>
-        <p>Plano de saúde MEI (microempreendedor individual) com contratação rápida, fácil e segura. Fale com um de nossos Especialistas.</p>
-        <button class="buttons-section" id="cotacao-1">Faça sua Cotação</button>
-    </section>
+        <section class="cards">
+            <img src="/assets/icone_mei.png" alt="icone plano MEI">
+            <p>Plano MEI</p>
+            <p>Plano de saúde MEI (microempreendedor individual) com contratação rápida, fácil e segura. Fale com um de
+                nossos Especialistas.</p>
+            <button class="buttons-section" id="cotacao-1">Faça sua Cotação</button>
+        </section>
 
-    <section class="cards">
-        <img src="/assets/icone_empresarial.png" alt="icone plano empresa">
-        <p>Plano Empresarial</p>
-        <p>Plano de saúde MEI (microempreendedor individual) com contratação rápida, fácil e segura. Fale com um de nossos Especialistas.</p>
-        <button class="buttons-section" id="cotacao-1">Faça sua Cotação</button>
-    </section>
+        <section class="cards">
+            <img src="/assets/icone_empresarial.png" alt="icone plano empresa">
+            <p>Plano Empresarial</p>
+            <p>Plano de saúde MEI (microempreendedor individual) com contratação rápida, fácil e segura. Fale com um de
+                nossos Especialistas.</p>
+            <button class="buttons-section" id="cotacao-1">Faça sua Cotação</button>
+        </section>
 
-    <p class="titulos">Portabilidade</p>
-    <p class="subtitulos">Transfira seu plano de saúde sem complicações e aproveite os melhores benefícios e atendimento.</p>
+        <p class="titulos">Portabilidade</p>
+        <p class="subtitulos">Transfira seu plano de saúde sem complicações e aproveite os melhores benefícios e
+            atendimento.</p>
 
-    <section>
-        <div id="container-port">
-        <div id="block-white">
+        <section>
+            <div id="container-port">
+                <div id="block-white">
+                    <img src="/assets/logotipo amil.png">
+                </div>
+                <p>Experimente o Melhor com Amil! Transfira seu Plano de Saúde Hoje Mesmo!</p>
+                <img src="/assets/img_familia.png">
+            </div>
+            <div id="linha2"></div>
+
+            <div id="orcam-port">
+                <div id="block-logo">
+                    <img src="/assets/logotipo amil.png" alt="">
+                </div>
+                <p id="titul-port">Faça sua Portabilidade</p>
+                <p>Transforme a Saúde da Sua Empresa com Amil! Oferecemos os melhores preços e
+                    um atendimento excepcional para cuidar de todos.
+                </p>
+                <button id="btn-orca">Solicite seu Orçamento</button>
+
+                <div id="info-vendas">
+                    <p>Central de Vendas</p>
+                    <div id="linha3"></div>
+                    <div id="block-cel">
+                        <img src="" alt="icone telefone">
+                    </div>
+                    <div id="block-tel">
+                        <p>(11) 3164-0000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <p class="titulos">Rede Credenciada</p>
+        <p class="subtitulos">Com Amil, você conta com uma ampla rede de hospitais, clínicas e profissionais de saúde de
+            alta qualidade.</p>
+
+        <section>
+            <div class="hospitais">
+                <img src="/assets/check.png" alt="Hospital Alemão Oswaldo Cruz">
+                <p>Hospital Alemão Oswaldo Cruz</p>
+            </div>
+
+            <div class="hospitais">
+                <img src="/assets/check.png" alt="Hospital Beneficência Portuguesa">
+                <p>Hospital Beneficência Portuguesa</p>
+            </div>
+
+            <div class="hospitais">
+                <img src="/assets/check.png" alt="Hospital Infantil Sabará">
+                <p>Hospital Infantil Sabará</p>
+            </div>
+
+            <div class="hospitais">
+                <img src="/assets/check.png" alt="Hospital Samaritano">
+                <p>Hospital Samaritano</p>
+            </div>
+
+            <div class="hospitais">
+                <img src="/assets/check.png" alt="Hospital Santa Catarina">
+                <p>Hospital Santa Catarina</p>
+            </div>
+
+            <div class="hospitais">
+                <img src="/assets/check.png" alt="Pro Matre Paulista">
+                <p>Pro Matre Paulista</p>
+            </div>
+
+            <div class="hospitais">
+                <img src="/assets/check.png" alt="Hosp. e Mat. São Luiz">
+                <p>Hosp. e Mat. São Luiz</p>
+            </div>
+
+            <div class="hospitais">
+                <img src="/assets/check.png" alt="Hospital São Camilo">
+                <p>Hospital São Camilo</p>
+            </div>
+
+            <div class="hospitais">
+                <img src="/assets/check.png" alt="Hospital do Coração - Hcor">
+                <p>Hospital do Coração - Hcor</p>
+            </div>
+
+            <div class="hospitais">
+                <img src="/assets/check.png" alt="Hosp. 9 de Julho">
+                <p>Hosp. 9 de Julho</p>
+            </div>
+
+            <div class="hospitais">
+                <img src="/assets/check.png" alt="Hospital Sírio Libanês">
+                <p>Hospital Sírio Libanês</p>
+            </div>
+
+            <div class="hospitais">
+                <img src="/assets/check.png" alt="Albert Einstein">
+                <p>Albert Einstein</p>
+            </div>
+
+            <div class="hospitais">
+                <img src="/assets/check.png" alt="Hospital Vila Nova Star">
+                <p>Hospital Vila Nova Star</p>
+            </div>
+        </section>
+
+
+        <p class="titulos">Contato</p>
+        <p class="subtitulos">Tem alguma dúvida ou precisa de assistência? Entre em contato conosco e nossa equipe está
+            pronta para oferecer o suporte que você precisa. </p>
+
+        <section>
+            <p>Estamos aqui para ajudar</p>
             <img src="/assets/logotipo amil.png">
-        </div>
-        <p>Experimente o Melhor com Amil! Transfira seu Plano de Saúde Hoje Mesmo!</p>
-        <img src="/assets/img_familia.png">
-        </div>
-        <div id="linha2"></div>
 
-        <div id="orcam-port">
-            <div id="block-logo">
-                <img src="/assets/logotipo amil.png" alt="">
-            </div>
-            <p id="titul-port">Faça sua Portabilidade</p>
-            <p>Transforme a Saúde da Sua Empresa com Amil! Oferecemos os melhores preços e 
-                um atendimento excepcional para cuidar de todos.
-            </p>
-            <button id="btn-orca">Solicite seu Orçamento</button>
-
-            <div id="info-vendas">
-                <p>Central de Vendas</p>
-                <div id="linha3"></div>
-                <div id="block-cel">
-                    <img src="" alt="icone telefone">
-                </div>
-                <div id="block-tel">
-                    <p>(11) 3164-0000</p>
+            <div id="conta-tel">
+                <img src="/assets/telefone.png">
+                <div>
+                    <p>Telefone</p>
+                    <p>11 3164-0000</p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!--Rede Credenciada e Contato-->
+            <div id="conta-email">
+                <img src="/assets/Email.png">
+                <div>
+                    <p>E-mail</p>
+                    <p>amil@atendimentoempresas.com.br</p>
+                </div>
+            </div>
 
-    
+            <div id="conta-whats">
+                <img src="/assets/mini-whatsapp.png">
+                <div>
+                    <p>Whatsapp</p>
+                    <p>11 94543-2020</p>
+                </div>
+                <button>Fale conosco</button>
+            </div>
+        </section>
+    </main>
 
+    <footer>
 
+    </footer>
 
-
-
-
-</main>
 </body>
+
 </html>
