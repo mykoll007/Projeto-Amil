@@ -25,6 +25,8 @@
         </nav>
     </header>
     <main>
+        <div id="container1">
+        <div id="left-side">
         <div id="align-text">
             <img src="/assets/Imagem-albert.png">
             <div id="align-subti">
@@ -46,24 +48,27 @@
                 <p>(11) 3164-0000</p>
             </div>
         </div>
-
-        <section>
+    </div>
+        <section id="plan-empresarial">
             <img src="/assets/logotipo amil.png" alt="logotipo amil">
             <p id="planos-h1">Planos de Saúde Amil Empresarial</p>
-            <p>Solicite uma cotação hoje e obtenha os melhores preços garantidos!</p>
+            <p id="planos-h2">Solicite uma cotação hoje e obtenha os melhores preços garantidos!</p>
 
+            <!--Formulario-->
             <form action="" method="post" id="form">
-                <label for="name">Nome</label>
+                <label for="name" id="labl-nome">Nome</label>
                 <input type="text" id="name" name="name" value="" required>
 
-                <label for="email">Email</label>
+                <label for="email" id="lab-email">Email</label>
                 <input type="text" id="email" name="email" value="" required>
 
-                <label for="email">Telefone / Whatsapp</label>
+               
+                <label for="telefone" id="lab-telefone">Telefone / Whatsapp</label>
                 <input type="text" id="telefone" name="telefone" value="" required>
 
-                <label for="estado">Estado</label>
-                <select required>
+                <div id="align-estado"> <!--Alinhando o label e o input estado-->
+                <label for="estado" id="lab-estado">Estado</label>
+                <select id="estado" required>
                     <option value=""></option>
                     <option value="AM">AM</option>
                     <option value="RR">RR</option>
@@ -91,16 +96,20 @@
                     <option value="GO">GO</option>
                     <option value="DF">DF</option>
                 </select>
+                </div>
 
-                <label for="email">Cidade do CNPJ</label>
+                <label for="cid_cnpj">Cidade do CNPJ</label>
                 <input type="text" id="cid_cnpj" name="cid_cnpj" value="" required>
 
-                <label for="tipo-plano">Tipo de Plano</label>
-                <select required>
+
+               
+                <label for="tipo-plano" id="lab-tipo">Tipo de Plano</label>
+                <select id="tipo-plano" required>
                     <option value=""></option>
                     <option value="individual_familiar">Individual/Familiar</option>
                     <option value="individual_familiar">MEI/PME/Empresarial(descontos até 40%)</option>
                 </select>
+            
 
                 <label for="idade">Idade das pessoas</label>
                 <input type="text" id="idade" name="idade" value="" required>
@@ -111,12 +120,15 @@
                 <label for="plano-valor">Valor do Plano Atual</label>
                 <input type="text" id="plano-valor" name="plano-valor" value="" required>
 
-                <label for="comentario">Fale um pouco sobre seu caso</label>
+                <label for="comentario" id="fale-um">Fale um pouco sobre seu caso</label>
                 <input type="text" id="comentario" name="comentario" value="" required>
 
-                <button type="submit">Enviar</button>
+                <div id="align-btn">
+                <button id="btn-form" type="submit">Enviar</button>
+                </div>
             </form>
         </section>
+    </div>
 
         <p class="titulos">Conheça nossos planos</p>
         <p class="subtitulos">Veja abaixo as vantagens do plano que mais lhe interessa e nos chame no WhatsApp para
