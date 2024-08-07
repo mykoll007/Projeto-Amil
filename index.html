@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+       
 </head>
 
 <body>
@@ -142,15 +143,18 @@
         </div>
 
         <p class="titulos">Conheça nossos planos</p>
+        <div class="align-subt">
         <p class="subtitulos">Veja abaixo as vantagens do plano que mais lhe interessa e nos chame no WhatsApp para
             fazer a solicitação.</p>
+        </div>
 
+    <div id="cont-cards">
         <section class="cards">
             <img src="/assets/icone_familia.png" alt="icone plano individual">
             <p>Plano Individual / Familiar</p>
             <p>O Plano Individual / Familiar é uma solução abrangente e flexível desenhada para atender às necessidades
                 específicas de cada pessoa ou de cada núcleo familiar.</p>
-            <button class="buttons-section" id="cotacao-1">Faça sua Cotação</button>
+            <button class="buttons-cards" id="btn-cota1">Faça sua Cotação</button>
         </section>
 
         <section class="cards">
@@ -158,7 +162,7 @@
             <p>Plano MEI</p>
             <p>Plano de saúde MEI (microempreendedor individual) com contratação rápida, fácil e segura. Fale com um de
                 nossos Especialistas.</p>
-            <button class="buttons-section" id="cotacao-1">Faça sua Cotação</button>
+            <button class="buttons-cards" id="btn-cota2">Faça sua Cotação</button>
         </section>
 
         <section class="cards">
@@ -166,51 +170,62 @@
             <p>Plano Empresarial</p>
             <p>Plano de saúde MEI (microempreendedor individual) com contratação rápida, fácil e segura. Fale com um de
                 nossos Especialistas.</p>
-            <button class="buttons-section" id="cotacao-1">Faça sua Cotação</button>
+            <button class="buttons-cards" id="btn-cota3">Faça sua Cotação</button>
         </section>
-
+    </div>
         <p class="titulos">Portabilidade</p>
+        <div class="align-subt">
         <p class="subtitulos">Transfira seu plano de saúde sem complicações e aproveite os melhores benefícios e
             atendimento.</p>
-
-        <section>
-            <div id="container-port">
+        </div>
+        <section id="cont-porta">
+            <div id="leftside-port">
                 <div id="block-white">
                     <img src="/assets/logotipo amil.png">
                 </div>
                 <p>Experimente o Melhor com Amil! Transfira seu Plano de Saúde Hoje Mesmo!</p>
+                <div id="align-imgport">
                 <img src="/assets/img_familia.png">
+                </div>
             </div>
             <div id="linha2"></div>
 
-            <div id="orcam-port">
+            <div id="rightside-port">
                 <div id="block-logo">
+                    <div id="block2-logo">
                     <img src="/assets/logotipo amil.png" alt="">
+                    </div>
                 </div>
+                <div id="orcam-port">
                 <p id="titul-port">Faça sua Portabilidade</p>
-                <p>Transforme a Saúde da Sua Empresa com Amil! Oferecemos os melhores preços e
+                <p id="subti-port">Transforme a Saúde da Sua Empresa com Amil! Oferecemos os melhores preços e
                     um atendimento excepcional para cuidar de todos.
                 </p>
                 <button id="btn-orca">Solicite seu Orçamento</button>
 
                 <div id="info-vendas">
-                    <p>Central de Vendas</p>
+                    <p id="central">Central de Vendas</p>
                     <div id="linha3"></div>
                     <div id="block-cel">
-                        <img src="" alt="icone telefone">
+                        <img src="/assets/telefone.png" alt="icone telefone">
                     </div>
                     <div id="block-tel">
                         <p>(11) 3164-0000</p>
                     </div>
                 </div>
             </div>
+        </div>
         </section>
 
+        
         <p class="titulos">Rede Credenciada</p>
+        <div class="align-subt">
         <p class="subtitulos">Com Amil, você conta com uma ampla rede de hospitais, clínicas e profissionais de saúde de
             alta qualidade.</p>
+        </div>
 
-        <section>
+        <div id="cont-rede">    
+        <section id="sect-rede">
             <div class="hospitais">
                 <img src="/assets/check.png" alt="Hospital Alemão Oswaldo Cruz">
                 <p>Hospital Alemão Oswaldo Cruz</p>
@@ -276,12 +291,14 @@
                 <p>Hospital Vila Nova Star</p>
             </div>
         </section>
+    </div>
 
 
         <p class="titulos">Contato</p>
+        <div class="align-subt">
         <p class="subtitulos">Tem alguma dúvida ou precisa de assistência? Entre em contato conosco e nossa equipe está
             pronta para oferecer o suporte que você precisa. </p>
-
+        </div>    
         <section>
             <p>Estamos aqui para ajudar</p>
             <img src="/assets/logotipo amil.png">
@@ -316,7 +333,6 @@
     <footer>
 
     </footer>
-
 </body>
 
 </html>

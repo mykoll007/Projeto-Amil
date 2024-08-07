@@ -25,6 +25,7 @@ nav p{
 }
 #container1{
 display: flex;
+margin-bottom: 58px;
 justify-content: space-between;
 }
 #left-side{
@@ -167,16 +168,16 @@ input{
     width: 90%;
 }
 #align-estado{
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 21px;
+    width: 81%;
+    max-width: 70px;
 }
-
  #estado{
     width: 50%;
 }
 #align-telestado{
-display: inline-flex;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between; 
 }
 #align-cnpjIdade{
     display: flex;
@@ -190,6 +191,9 @@ display: inline-flex;
     display: inline-grid;
     width: 116px;
 }
+#idade{
+    width: 89%;
+}
 #align-idade{
     display: inline-grid;
     width: 152px;
@@ -201,7 +205,7 @@ display: inline-flex;
 #align-planoEvalor{
     display: inline-flex;
     justify-content: space-between;
-    width: 100%;
+    width: 97%;
 }
  #align-plano{
 width: 118px;
@@ -223,7 +227,6 @@ width: 118px;
 }
 #lab-estado, #lab-tipo{
     width: 100%;
-    text-align: center;
     height: 20px;
 }
 #estado{
@@ -233,10 +236,10 @@ width: 118px;
 }
 #tipo-plano{
     border: 1px solid;
-    width: 95%;
+    width: 96%;
 }
 #comentario{
-    width: 93%;
+    width: 94%;
     margin-bottom: 10px;
 }
 #fale-um{
@@ -259,4 +262,251 @@ font-family: poppins;
 font-weight: 400;
 background-color: #461BFF;
 cursor: pointer;
+}
+
+.titulos{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.subtitulos{
+    font-family: 'Poppins';
+    width: 481px;
+    text-align: center;
+    margin-top: 0;
+    color: #0F0D59;
+    font-weight: 500;
+}
+.align-subt{
+    display: flex;
+    justify-content: center;
+}
+
+#cont-cards{
+    display: flex;
+    margin-top: 39px;
+    justify-content: space-between;
+}
+
+.cards{
+    font-size: 16px;
+    width: 275px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+    padding: 1%;
+}
+.cards img{
+    height: 78px;
+    width: 78px;
+    position: relative;
+    top: -43px;
+    left: 4px;
+
+}
+.cards p:first-of-type{
+   color: #0F0D59;
+   font-size: 20px;
+   margin-top: 0;
+}
+
+.cards p{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 14px;
+}
+.buttons-cards{
+    background-color: #461BFF;
+    color: white;
+    border: 1px solid;
+    height: 47px;
+    font-size: 15px;
+    border-radius: 16px;
+    padding: 0px 14px;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+#btn-cota2{
+    margin-top: 20px;
+}
+#btn-cota3{
+    margin-top: 16px;
+}
+
+#cont-porta{
+    background-color: #1706FF;
+    display: flex;
+    justify-content: space-around;
+}
+#block-white{
+    width: 187px;
+    height: 50px;
+    border: 1px solid white;
+    text-align: center;
+    background-color: white;
+    border-radius: 11px;
+    margin-top: 29px;
+    margin-left: 150px;
+}
+#leftside-port{
+    max-width: 450px;
+    margin-right: 39px;
+}
+
+ #leftside-port p{
+        font-weight: 600;
+        margin-left: 103px;
+        color: white;
+        font-family: 'Montserrat';
+}
+#align-imgport{
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+}
+#align-imgport img{
+    height: 239px;
+    width: 239px;
+}
+#linha2{
+    width: 3px;
+    margin-top: 75px;
+    height: 275px;
+    background: white;
+}
+#block-logo{
+    width: 70px;
+    height: 54px;
+    border-radius: 36px;
+    border: 1px solid white;
+    background: white;
+    padding-top: 14px;
+    text-align: center;
+    position: relative;
+    top: 34px;
+    left: 181px;
+}
+#block-logo img{
+    width: 37px;
+    height: 25px;
+    margin-top: 10px;
+}
+#block2-logo{
+    position: relative;
+    top: -9px;
+    left: 5px;
+    width: 51px;
+    border: 5px solid #0022FF;
+    border-radius: 35px;
+    height: 49px;
+}
+#orcam-port{
+    width: 232px;
+    height: 100%;
+    background-color: white;
+    margin-left: 106px;
+    border-radius: 49px;
+    font-family: poppins;
+    text-align: center;
+}
+#titul-port{
+    padding-top: 26px;
+    font-size: 22px;
+    width: 120px;
+    margin-left: 46px;
+    color: #0F0D59;
+    font-weight: 500;
+}
+#subti-port{
+    font-size: 13px;
+    margin-left: 21px;
+    width: 80%;
+    font-weight: 500;
+    color: #0F0D59; 
+}
+#btn-orca{
+    width: 182px;
+    border: 1px solid;
+    padding: 14px;
+    font-family: poppins;
+    font-size: 13px;
+    border-radius: 16px;
+    color: white;
+    background-color: #461BFF;
+    cursor: pointer;
+}
+#info-vendas{
+    display: flex;
+}
+#central{
+    font-size: 11px;
+    margin-left: 29px;
+    text-align: start;
+    height: 43px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+    color: #461BFF;
+    max-width: 64px;
+}
+#linha3{
+    opacity: 68%;
+    width: 3px;
+    background-color: blue;
+    border-radius: 22px;
+    height: 29px;
+    margin-top: 12px;
+}
+#block-cel{
+    margin-top: 14px;
+    margin-left: 7px;
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+}
+#block-cel img{
+    width: 25px;
+    height: 24px;
+}
+#block-tel{
+width: 87px;
+    margin-top: 10px;
+    margin-left: 3px;
+    background-color: #461BFF;
+    height: 28px;
+    text-align: center;
+    border-radius: 21px;
+}
+#block-tel p{
+    font-size: 12px;
+    max-width: 85px;
+    margin-left: 1px;
+    height: 21px;
+    margin-top: 17px;
+    margin: 0;
+    margin-left: 0px;
+    font-weight: 300;
+    margin-top: 6px;
+    color: white;
+}
+
+#sect-rede{
+    display: flow;
+    width: 420px;
+
+    border: 1px solid;
+}
+.hospitais{
+    display: inline-flex;
+    margin-left: 26px;
+}
+.hospitais img{
+    width: 50px;
+}
+.hospitais p{
+    font-family: poppins;
+}
+#cont-rede{
+    display: flex;
+    justify-content: center;
 }
