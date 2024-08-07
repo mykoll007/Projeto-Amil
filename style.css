@@ -154,21 +154,81 @@ input{
     border: 1px solid;
 }
 
+
 #name, #email, #telefone, #cid_cnpj, #tipo-plano, #idade, #plano-atual{
     width: 93%;
     height: 28px;
     margin-bottom: 10px;
 }
-#align-estado, #align-plano{
-    text-align: center;
+#lab-telefone{
+  font-size: 13px;
+}
+#telefone{
+    width: 90%;
+}
+#align-estado{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 21px;
+}
+
+ #estado{
+    width: 50%;
+}
+#align-telestado{
+display: inline-flex;
+}
+#align-cnpjIdade{
+    display: flex;
+    justify-content: space-between;
+}
+#align-cnpj, #align-idade{
+    display: inline-grid;
+    width: 116px;
+}
+#lab-cnpj{
+    display: inline-grid;
+    width: 116px;
+}
+#align-idade{
+    display: inline-grid;
+    width: 152px;
+}
+#lab-idade{
+    display: inline-grid;
+    width: 133px;
+}
+#align-planoEvalor{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ #align-plano{
+width: 118px;
+}
+#lab-plano{
+    width: 100%;
+}
+#lab-valor{
+    width: 100%;
+    font-size: 13px;
+}
+#align-valorPlano{
+    width: 138px;
+}
+#plano-valor{
+    margin-top: 1px;
+    height: 28px;   
+    width: 93%;
 }
 #lab-estado, #lab-tipo{
     width: 100%;
     text-align: center;
+    height: 20px;
 }
 #estado{
     width: 58px;
-    height: 28px;
+    height: 32px;
     border: 1px solid;
 }
 #tipo-plano{

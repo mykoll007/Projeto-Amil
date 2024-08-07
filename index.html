@@ -8,10 +8,13 @@
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -26,109 +29,117 @@
     </header>
     <main>
         <div id="container1">
-        <div id="left-side">
-        <div id="align-text">
-            <img src="/assets/Imagem-albert.png">
-            <div id="align-subti">
-            <p><span>Planos de saude completo para você e sua familia </p></span>
-            <p>Você e sua familia merecem qualidade de vida (:</p>
-            </div>
-        </div>
-        <div id="contacttext">
-            <p id="fale">Fale com nossa equipe agora</p>
-            <div id="linha1"></div>
-            <div id="cont-tel">
-                <div id="contact-whats">
-                    <p>(11) 94543-2020</p>
-                    <div id="juncao-fale">
-                        <p>Fale comigo</p>
-                        <img src="/assets/mini-whatsapp.png" alt="icon-whatsapp">
+            <div id="left-side">
+                <div id="align-text">
+                    <img src="/assets/Imagem-albert.png">
+                    <div id="align-subti">
+                        <p><span>Planos de saude completo para você e sua familia </p></span>
+                        <p>Você e sua familia merecem qualidade de vida (:</p>
                     </div>
                 </div>
-                <p>(11) 3164-0000</p>
+                <div id="contacttext">
+                    <p id="fale">Fale com nossa equipe agora</p>
+                    <div id="linha1"></div>
+                    <div id="cont-tel">
+                        <div id="contact-whats">
+                            <p>(11) 94543-2020</p>
+                            <div id="juncao-fale">
+                                <p>Fale comigo</p>
+                                <img src="/assets/mini-whatsapp.png" alt="icon-whatsapp">
+                            </div>
+                        </div>
+                        <p>(11) 3164-0000</p>
+                    </div>
+                </div>
             </div>
+            <section id="plan-empresarial">
+                <img src="/assets/logotipo amil.png" alt="logotipo amil">
+                <p id="planos-h1">Planos de Saúde Amil Empresarial</p>
+                <p id="planos-h2">Solicite uma cotação hoje e obtenha os melhores preços garantidos!</p>
+
+                <!--Formulario-->
+                <form action="" method="post" id="form">
+                    <label for="name" id="labl-nome">Nome</label>
+                    <input type="text" id="name" name="name" value="" required>
+
+                    <label for="email" id="lab-email">Email</label>
+                    <input type="text" id="email" name="email" value="" required>
+
+                    <div id="align-telestado">
+
+                        <div id="align-tele">
+                            <label for="telefone" id="lab-telefone">Telefone / Whatsapp</label>
+                            <input type="text" id="telefone" name="telefone" value="" required>
+                        </div>
+                        <div id="align-estado"> <!--Alinhando o label e o input estado-->
+                            <label for="estado" id="lab-estado">Estado</label>
+                            <select id="estado" required>
+                                <option value=""></option>
+                                <option value="AM">AM</option>
+                                <option value="RR">RR</option>
+                                <option value="PA">PA</option>
+                                <option value="AP">AP</option>
+                                <option value="TO">TO</option>
+                                <option value="MA">MA</option>
+                                <option value="PI">PI</option>
+                                <option value="CE">CE</option>
+                                <option value="RN">RN</option>
+                                <option value="PB">PB</option>
+                                <option value="PE">PE</option>
+                                <option value="AL">AL</option>
+                                <option value="SE">SE</option>
+                                <option value="BA">BA</option>
+                                <option value="MG">MG</option>
+                                <option value="ES">ES</option>
+                                <option value="RJ">RJ</option>
+                                <option value="SP">SP</option>
+                                <option value="PR">PR</option>
+                                <option value="SC">SC</option>
+                                <option value="RS">RS</option>
+                                <option value="MS">MS</option>
+                                <option value="MT">MT</option>
+                                <option value="GO">GO</option>
+                                <option value="DF">DF</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div id="align-cnpjIdade">
+                        <div id="align-cnpj">
+                            <label for="cid_cnpj" id="lab-cnpj">Cidade do CNPJ</label>
+                            <input type="text" id="cid_cnpj" name="cid_cnpj" value="" required>
+                        </div>
+                        <div id="align-idade">
+                            <label for="idade" id="lab-idade">Idade das pessoas</label>
+                            <input type="text" id="idade" name="idade" value="" required>
+                        </div>
+                    </div>
+                    <label for="tipo-plano" id="lab-tipo">Tipo de Plano</label>
+                    <select id="tipo-plano" required>
+                        <option value=""></option>
+                        <option value="individual_familiar">Individual/Familiar</option>
+                        <option value="individual_familiar">MEI/PME/Empresarial(descontos até 40%)</option>
+                    </select>
+
+                <div id="align-planoEvalor">
+                    <div id="align-plano">
+                    <label for="plano-atual" id="lab-plano">Plano Atual</label>
+                    <input type="text" id="plano-atual" name="plano-atual" value="" required>
+                    </div>
+                    <div id="align-valorPlano">
+                    <label for="plano-valor" id="lab-valor">Valor do Plano Atual</label>
+                    <input type="text" id="plano-valor" name="plano-valor" value="" required>
+                    </div>
+                </div>    
+                    <label for="comentario" id="fale-um">Fale um pouco sobre seu caso</label>
+                    <input type="text" id="comentario" name="comentario" value="" required>
+
+                    <div id="align-btn">
+                        <button id="btn-form" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
         </div>
-    </div>
-        <section id="plan-empresarial">
-            <img src="/assets/logotipo amil.png" alt="logotipo amil">
-            <p id="planos-h1">Planos de Saúde Amil Empresarial</p>
-            <p id="planos-h2">Solicite uma cotação hoje e obtenha os melhores preços garantidos!</p>
-
-            <!--Formulario-->
-            <form action="" method="post" id="form">
-                <label for="name" id="labl-nome">Nome</label>
-                <input type="text" id="name" name="name" value="" required>
-
-                <label for="email" id="lab-email">Email</label>
-                <input type="text" id="email" name="email" value="" required>
-
-               
-                <label for="telefone" id="lab-telefone">Telefone / Whatsapp</label>
-                <input type="text" id="telefone" name="telefone" value="" required>
-
-                <div id="align-estado"> <!--Alinhando o label e o input estado-->
-                <label for="estado" id="lab-estado">Estado</label>
-                <select id="estado" required>
-                    <option value=""></option>
-                    <option value="AM">AM</option>
-                    <option value="RR">RR</option>
-                    <option value="PA">PA</option>
-                    <option value="AP">AP</option>
-                    <option value="TO">TO</option>
-                    <option value="MA">MA</option>
-                    <option value="PI">PI</option>
-                    <option value="CE">CE</option>
-                    <option value="RN">RN</option>
-                    <option value="PB">PB</option>
-                    <option value="PE">PE</option>
-                    <option value="AL">AL</option>
-                    <option value="SE">SE</option>
-                    <option value="BA">BA</option>
-                    <option value="MG">MG</option>
-                    <option value="ES">ES</option>
-                    <option value="RJ">RJ</option>
-                    <option value="SP">SP</option>
-                    <option value="PR">PR</option>
-                    <option value="SC">SC</option>
-                    <option value="RS">RS</option>
-                    <option value="MS">MS</option>
-                    <option value="MT">MT</option>
-                    <option value="GO">GO</option>
-                    <option value="DF">DF</option>
-                </select>
-                </div>
-
-                <label for="cid_cnpj">Cidade do CNPJ</label>
-                <input type="text" id="cid_cnpj" name="cid_cnpj" value="" required>
-
-
-               
-                <label for="tipo-plano" id="lab-tipo">Tipo de Plano</label>
-                <select id="tipo-plano" required>
-                    <option value=""></option>
-                    <option value="individual_familiar">Individual/Familiar</option>
-                    <option value="individual_familiar">MEI/PME/Empresarial(descontos até 40%)</option>
-                </select>
-            
-
-                <label for="idade">Idade das pessoas</label>
-                <input type="text" id="idade" name="idade" value="" required>
-
-                <label for="plano-atual">Plano Atual</label>
-                <input type="text" id="plano-atual" name="plano-atual" value="" required>
-
-                <label for="plano-valor">Valor do Plano Atual</label>
-                <input type="text" id="plano-valor" name="plano-valor" value="" required>
-
-                <label for="comentario" id="fale-um">Fale um pouco sobre seu caso</label>
-                <input type="text" id="comentario" name="comentario" value="" required>
-
-                <div id="align-btn">
-                <button id="btn-form" type="submit">Enviar</button>
-                </div>
-            </form>
-        </section>
-    </div>
 
         <p class="titulos">Conheça nossos planos</p>
         <p class="subtitulos">Veja abaixo as vantagens do plano que mais lhe interessa e nos chame no WhatsApp para
