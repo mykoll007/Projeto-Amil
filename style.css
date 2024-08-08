@@ -1,3 +1,8 @@
+
+a{
+    text-decoration: none;
+    color: black;
+}
 img{
     width: 83px;
     height: 50px;
@@ -16,6 +21,9 @@ header{
 margin-left: 21px;
 height: 47px;
 }
+#IconMenu{
+    display: none;
+}
 nav{
     display: flex;
 }
@@ -28,17 +36,15 @@ display: flex;
 margin-bottom: 58px;
 justify-content: space-between;
 }
-#left-side{
-    max-width: 634px;
-}
+
 #align-text{
     display: flex;
     margin-top: 46px;
     max-width: 622px;
 }
 #align-text img{
-    width: 282px;
-    height: 269px;
+    width: 454px;
+    height: 416px;
     margin-top: 15px;
 }
 #align-subti{
@@ -47,22 +53,24 @@ justify-content: space-between;
 #align-subti p{
     font-family: montserrat;
     color: #0F0D59;
+    width: 310px;
     font-weight: 500;
+    margin-left: 35px;
 }
 #align-subti span {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 25px;
 }
 #align-subti p:nth-child(2){
-    font-size: 17px;
-    width: 147px;
-    margin-left: 46px;
-    margin-top: 34px;
+    font-size: 23px;
+    width: 196px;
+    margin-left: 60px;
+    margin-top: 151px;
 }
 #contacttext{
     max-width: 622px;
     display: flex;
-    margin-top: 17px;
+    margin-top: 106px;
 }
 #fale{
     font-size: 30px;
@@ -116,6 +124,11 @@ justify-content: space-between;
 #cont-tel p:nth-child(2){
     margin: 0;
 }
+
+#textform{
+    display: none;
+}
+
 #plan-empresarial{
     border: 1px solid;
     max-width: 345px;
@@ -269,6 +282,7 @@ cursor: pointer;
     font-size: 22px;
     font-family: 'Poppins';
     font-weight: 500;
+    
 }
 .subtitulos{
     font-family: 'Poppins';
@@ -490,6 +504,10 @@ width: 87px;
     color: white;
 }
 
+#sect-rede{
+    margin-top: 20px;
+}
+
 .hospitais{
     margin-left: 48px;
 }
@@ -505,6 +523,7 @@ width: 87px;
     display: flex;
     justify-content: center;
     margin-bottom: 72px;
+    margin-top: 27px;
 }
 #conte-contato{
     border: 1px solid;
@@ -518,6 +537,7 @@ width: 87px;
     font-family: montserrat;
     text-align: center;
     margin-top: 0;
+    font-weight: 500;
     margin-bottom: 40px;
 }
 #block-logo2{
@@ -532,9 +552,9 @@ width: 87px;
     border: 1px solid;
 }
 #block-logo2 img{
-    width: 83px;
-    margin-top: 11px;
-    height: 50px;
+    width: 80px;
+    margin-top: 13px;
+    height: 48px;
 }
 #container-cont img:nth-last-child(2){
     width: 48px;
@@ -602,4 +622,323 @@ width: 87px;
     color: white;
     background-color: #461BFF;
     cursor: pointer;
+}
+
+
+
+
+#container {
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+}
+#wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 206px; /* footer height, we will fix that with jquery */
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0px;
+    height: 206px; /* footer height if any */
+}
+
+@media screen and (max-width:1355px) {
+    #container1{
+        display: block;
+    }
+    #align-leftside{
+        display: flex;
+        justify-content: center;
+    }
+    #align-text{
+        max-width: 100%;
+    }
+    #align-conttext{
+        display: flex;
+        justify-content: center;
+    }
+    #container-form{
+        display: flex;
+        justify-content: center;
+    }
+    #textform{
+        display: block;
+    }
+}
+
+@media screen and (max-width:1000px){
+    #align-text img {
+        width: 309px;
+        height: 297px;
+        margin-top: 15px;
+    }
+    #align-subti {
+        margin-left: 28px;
+    }
+    #align-subti span {
+        font-size: 20px;
+    }
+    #align-subti p:nth-child(2) {
+        font-size: 20px;
+        width: 196px;
+        margin-left: 60px;
+        margin-top: 100px;
+    }
+}
+#align-subti {
+    margin-left: 28px;
+}
+#contacttext {
+    margin-top: 41px;
+}
+.cards{
+    width: 229px;
+}
+#pln-indiv{
+    margin-bottom: 0;
+}
+.cards p{
+    font-size: 12px;
+}
+#block-logo{
+    left: 70px;
+}
+#orcam-port{
+    margin-left: 0;
+}
+
+@media screen and (max-width:840px) {
+        #linha2{
+            display: none;
+        }
+}
+@media screen and (max-width:780px) {
+    #orcam-port{
+        
+    margin-right: 45px;
+    }
+    #pln-indivText{
+    margin: 2px;
+    }
+    #block-white{
+        margin-left: 69px;
+    }
+    #leftside-port p {
+
+        margin-left: 66px;
+        width: 201px;
+   
+    }
+}
+@media screen and (max-width:719px){
+    #align-text img{
+        width: 254px;
+        height: 249px;
+    }
+    #textform{
+        margin-top: 45px;
+        margin-bottom: 0;
+    }
+    #IconMenu{
+        display: block;
+        color: #461bff;
+        margin-right: 12px;
+        width: 52px;
+        font-size: 50px;
+        cursor: pointer;
+    }
+    nav{
+        display: none;
+    }
+    .cards p:first-of-type{
+        font-size: 17px;
+    }
+    .cards p {
+        font-size: 11px;
+    }
+    #fale {
+        font-size: 23px;
+        width: 206px;
+    }
+    #cont-tel{
+        margin-top: 6px;
+    }
+}
+@media screen and (max-width:675px){
+    #align-text img {
+        width: 225px;
+        height: 204px;
+    }
+    #align-subti p {
+        width: 233px;
+    }
+    #align-subti p:nth-child(2) {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:647px) {
+    #align-subti span {
+        font-size: 17px;
+    }
+    #align-subti p {
+        width: 182px;
+    }
+
+    #align-subti p:nth-child(2) {
+        width: 180px;
+        margin-left: 30px;
+    }
+    .cards {
+        width: 151px;
+        height: 331px;
+    }
+    .buttons-cards{
+        height: 38px;
+        font-size: 10px;
+    }
+    .cards{
+        height: auto;
+    }
+    .cards p{
+        font-size: 10px;
+    }
+    .cards p:first-of-type {
+        font-size: 15px;
+    }
+    #btn-cota1{
+        margin-top: 18px;
+    }
+    #leftside-port p {
+       margin-left: 50px;
+    }
+    #block-white {
+        margin-left: 49px;
+    }
+}
+
+@media screen and (max-width:613px) {
+    #fale {
+        font-size: 18px;
+        width: 155px;
+        margin-top: 34px;
+    }
+    #contact-whats p{
+        font-size: 13px;
+    }
+    #cont-tel {
+        margin-top: 17px;
+    }
+    #cont-tel p:nth-child(2) {
+        font-size: 13px;
+    }
+    #juncao-fale{
+        margin-left: 10px;
+        border-radius: 26px;
+        height: 33px;
+        padding: 4px;
+    }
+    #juncao-fale p{
+        display: none;
+    }
+    #juncao-fale img{
+        margin-right: 0;
+    }
+    #align-imgport img {
+        height: 193px;
+        width: 198px;
+    }
+    #leftside-port p {
+        margin-left: 8px;
+    }
+    #block-white {
+        margin-left: 6px;
+    }
+}
+
+@media screen and (max-width:547px){
+    #leftside-port {
+        margin-right: 20px;
+    }
+    #block-logo2{
+        left: 271px;
+    }
+    #align-text img {
+        width: 210px;
+        height: 188px;
+    }
+    #btn-cota2 {
+        margin-top: 35px;
+    }
+    #btn-cota3 {
+        margin-top: 36px;
+    }
+    #cont-porta{
+        display: inline-block;
+        width: 100%;
+    }
+    #orcam-port{
+        margin-right: 0;
+    }
+    #align-orcam{
+        margin-top: 30px;
+        display: flex;
+    justify-content: center;
+    margin-bottom: 19px;
+    }
+    #block-logo{
+        left: 176px;
+    }
+    #align-text{
+        display: flex;
+        justify-content: center;
+    }
+    #align-logo{
+        display: flex;
+        justify-content: center;
+    }
+    #block-logo, #block2-logo{
+        display: none;
+    }
+    #cont-cards{
+        display: block;
+    }
+    #align-cards{
+        display: flex;
+        justify-content: center ;
+    }
+    .cards{
+        width: 271px;
+        margin-bottom: 62px;
+    }
+    .cards p {
+        font-size: 14px;
+    }
+    .buttons-cards{
+        font-size: 12px;
+    }
+    #conte-contato{
+        padding: 0;
+        width: 396px;
+    }
+    
+}
+
+@media screen and (max-width:465px) {
+    #align-text img {
+        width: 28vw;
+        height: 28vw;
+    }
+    #align-subti {
+        margin-left: 4px;
+    }
+    #conte-contato{
+        padding: 0;
+    }
+    
+    
 }
