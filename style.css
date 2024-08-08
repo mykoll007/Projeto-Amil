@@ -490,23 +490,116 @@ width: 87px;
     color: white;
 }
 
-#sect-rede{
-    display: flow;
-    width: 420px;
-
-    border: 1px solid;
-}
 .hospitais{
-    display: inline-flex;
-    margin-left: 26px;
+    margin-left: 48px;
 }
+
 .hospitais img{
     width: 50px;
 }
 .hospitais p{
     font-family: poppins;
 }
-#cont-rede{
+
+#container-cont{
     display: flex;
     justify-content: center;
+    margin-bottom: 72px;
+}
+#conte-contato{
+    border: 1px solid;
+    width: 500px;
+    padding: 28px;
+    position: relative;
+}
+
+#conte-contato p:nth-last-child(5){
+    font-size: 23px;
+    font-family: montserrat;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+#block-logo2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    left: 371px;
+    top: 67px;
+    border: 1px solid;
+}
+#block-logo2 img{
+    width: 83px;
+    margin-top: 11px;
+    height: 50px;
+}
+#container-cont img:nth-last-child(2){
+    width: 48px;
+    padding: 6px;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 52px;
+}
+
+#conta-tel,#conta-email,#conta-whats{
+    display: flex;
+    margin-top: 11px;
+}
+#conta-whats img{
+    width: 48px;
+    padding: 6px;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 52px;
+}
+
+#conta-tel div{
+    font-family: poppins;
+    margin-left: 13px;
+    padding-top: 4px;
+}
+#conta-tel p{
+    margin: 0;
+    color: #0F0D59;
+}
+
+#conta-whats{
+    font-family: poppins;
+    margin-top: 10px;
+}
+
+#tel-contato p{
+    margin: 0;
+    font-size: 17px;
+}
+#conta-email div{
+    font-family: poppins;
+    margin-left: 13px;
+    padding-top: 4px;
+}
+#conta-email p{
+    margin: 0;
+    color: #0F0D59;
+}
+
+#conta-whats p{
+    margin: 0;
+    color: #0F0D59;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+#conte-contato button{
+    width: 129px;
+    height: 43px;
+    margin-top: 10px;
+    margin-left: 37px;
+    border: 1px solid;
+    font-family: poppins;
+    border-radius: 19px;
+    color: white;
+    background-color: #461BFF;
+    cursor: pointer;
 }
