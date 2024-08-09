@@ -12,3 +12,11 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     }
 }
+@keyframes aparecer{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
