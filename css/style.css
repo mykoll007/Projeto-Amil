@@ -522,7 +522,7 @@ width: 87px;
 #container-cont{
     display: flex;
     justify-content: center;
-    margin-bottom: 72px;
+    margin-bottom: 9px;
     margin-top: 27px;
 }
 #conte-contato{
@@ -643,6 +643,14 @@ width: 87px;
     border-radius: 50%;
     display: block;
 }
+
+#arrow{
+    width: 71px;
+    cursor: pointer;
+    height: 71px; 
+}
+
+
 
 
 @media screen and (max-width:1355px) {
